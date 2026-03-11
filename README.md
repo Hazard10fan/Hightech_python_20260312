@@ -15,6 +15,16 @@ AI class contents
 ** 특정심벌 사용x(!,@,#,$,%등)
 ** 식별자 길이 상관x(추천하는 방식(단어 앞자리마다 대문자섞어서) : Ex. ThisIsALongVariable)
 ** 한줄에 하나의 명령문만 해석(a= (1+2+3+  / a = 1+2+3+| ) <-길어질경우 괄호,역슬래시등 처리
-                                  4+5+6+   /     4+5+6+|
-                                  7+8+9)   /     7+8+9
-                                        
+                                  4+5+6+   /    4+5+6+|
+                                  7+8+9)   /    7+8+9
+* 파이썬 identation, comments
+** 들여쓰기(identation)
+    *** 파이썬에서는 들여쓰기로 코드의 블록을 정의함
+    *** 일반적으로 4칸을 띄움(tab 키 사용)
+** 주석(comments)
+    *** 해쉬(hash) 기호 #으로 구성(''' 또는 """ 기호로 다중 주석 처리)
+
+* Docstrings(documentation strings) in python
+ => 함수(function),방법(method),클래스(class),모듈(module)의 정의 이후에 사용하는 문자열 리터럴(literals)
+__doc__속성(attribute)으로 객체와 연결됨
+                                         
