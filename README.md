@@ -74,7 +74,23 @@ __doc__속성(attribute)으로 객체와 연결됨
     *** 선언 : 중괄호 {} 내부에 쉼표로 구분하여 key:value 나열
   ** 형변환(conversion and type casting)
     *** 암묵적컨셉(implicit) : 파이썬 인터프리터가 자동으로 형변환 실시,사용자 개입 필요x
-    *** 명시적컨셉(Explicit) : 사용자가 원하는 형태로 변경
+    *** 명시적컨셉(Explicit) : 사용자가 원하는 형태로 변경(int(), float(), str()등)
+
+* 파이썬 input, output, import
+  ** output
+    *** print() : 화면으로 데이터를 출력하기 위한 함수(function)
+    *** str.format() : 화면 출력 표현방식 편의 제공, 문자열&입력 객체 정보 조합으로 구성
+  ** input : 사용자가 데이터를 입력받도록 지원(여기서 받는건 다 문자로 처리함)
+  ** import : 모듈을 가져와서 쓸수있게 해줌
+
+* 파이썬 연산자(Python operators)
+  ** 산술(arithmetic)연산자 : +, -, *, /, %, //, **
+  ** 비교(comparison)연산자 : >, <, ==, !=, >=, <=
+  ** 논리(logical)연산자 : and, or, not
+  ** 비트(bitwise)연산자(요즘은 잘안쓰긴함) : >>(곱하기), <<(나누기)
+  ** 대입(assignment)연산자 : ex) a += 5 -> a = a + 5(첨엔 정석대로 쓰다가 익숙해지면 대입연산자 쓰기)
+  
     
+      
   
                                          
